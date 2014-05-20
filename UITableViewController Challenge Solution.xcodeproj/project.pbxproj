@@ -14,13 +14,13 @@
 		7759FD69192BF16C000E9A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7759FD68192BF16C000E9A0A /* main.m */; };
 		7759FD6D192BF16C000E9A0A /* HSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7759FD6C192BF16C000E9A0A /* HSAppDelegate.m */; };
 		7759FD70192BF16C000E9A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7759FD6E192BF16C000E9A0A /* Main.storyboard */; };
-		7759FD73192BF16C000E9A0A /* HSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7759FD72192BF16C000E9A0A /* HSViewController.m */; };
 		7759FD75192BF16C000E9A0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7759FD74192BF16C000E9A0A /* Images.xcassets */; };
 		7759FD7C192BF16C000E9A0A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7759FD7B192BF16C000E9A0A /* XCTest.framework */; };
 		7759FD7D192BF16C000E9A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7759FD5C192BF16C000E9A0A /* Foundation.framework */; };
 		7759FD7E192BF16C000E9A0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7759FD60192BF16C000E9A0A /* UIKit.framework */; };
 		7759FD86192BF16C000E9A0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7759FD84192BF16C000E9A0A /* InfoPlist.strings */; };
 		7759FD88192BF16C000E9A0A /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7759FD87192BF16C000E9A0A /* UITableViewController_Challenge_SolutionTests.m */; };
+		7759FD93192BF21C000E9A0A /* HSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7759FD92192BF21C000E9A0A /* HSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		7759FD6B192BF16C000E9A0A /* HSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSAppDelegate.h; sourceTree = "<group>"; };
 		7759FD6C192BF16C000E9A0A /* HSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSAppDelegate.m; sourceTree = "<group>"; };
 		7759FD6F192BF16C000E9A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7759FD71192BF16C000E9A0A /* HSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSViewController.h; sourceTree = "<group>"; };
-		7759FD72192BF16C000E9A0A /* HSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSViewController.m; sourceTree = "<group>"; };
 		7759FD74192BF16C000E9A0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7759FD7A192BF16C000E9A0A /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7759FD7B192BF16C000E9A0A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7759FD83192BF16C000E9A0A /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7759FD85192BF16C000E9A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7759FD87192BF16C000E9A0A /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7759FD91192BF21C000E9A0A /* HSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSTableViewController.h; path = ../HSTableViewController.h; sourceTree = "<group>"; };
+		7759FD92192BF21C000E9A0A /* HSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSTableViewController.m; path = ../HSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				7759FD6B192BF16C000E9A0A /* HSAppDelegate.h */,
 				7759FD6C192BF16C000E9A0A /* HSAppDelegate.m */,
 				7759FD6E192BF16C000E9A0A /* Main.storyboard */,
-				7759FD71192BF16C000E9A0A /* HSViewController.h */,
-				7759FD72192BF16C000E9A0A /* HSViewController.m */,
+				7759FD91192BF21C000E9A0A /* HSTableViewController.h */,
+				7759FD92192BF21C000E9A0A /* HSTableViewController.m */,
 				7759FD74192BF16C000E9A0A /* Images.xcassets */,
 				7759FD63192BF16C000E9A0A /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7759FD73192BF16C000E9A0A /* HSViewController.m in Sources */,
 				7759FD69192BF16C000E9A0A /* main.m in Sources */,
 				7759FD6D192BF16C000E9A0A /* HSAppDelegate.m in Sources */,
+				7759FD93192BF21C000E9A0A /* HSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

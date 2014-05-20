@@ -1,5 +1,5 @@
 //
-//  HSViewController.h
+//  HSTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Harsh Sapra on 21/05/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HSViewController : UIViewController
+@interface HSTableViewController : UITableViewController
 
 @end
